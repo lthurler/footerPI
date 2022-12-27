@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&family=Poppins:wght@400;500&family=Prosto+One&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;    
+}
+
+img {
+    width: 100%;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+section {
+    height: 22vh;
+}
+
+footer {
+    background-color: #4b10fe;  
+} 
+
+.footerContainer {
+    background-color: #4b10fe;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 5px;
+    border-top: 2px solid #ffa41c;
+        
+}
+
+#footerLogo {
+    text-align: center;
+    padding: 40px 0;
+    color: #ffa41c;
+}
+
+#logo {    
+    font-family: 'Lora', serif;
+    font-weight: 600;    
+}
+
+
+#footerData {
+    display: flex;
+    flex-direction:row;
+    align-items: flex-start;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    color: #ffa41c;
+}
+
+#footerData h3{
+    font-family: 'Prosto One', cursive;
+    font-size: 1rem;
+    padding-right: 25px;
+            
+}
+
+#footerInfo {
+    font-size: 0.8rem;
+}
+
+#footerFone {  
+      
+    background-color: #4b10fe;
+    display: flex;
+    font-size: 0.8rem;
+    align-items: center;
+    justify-content: center; 
+    padding-left: 105px;
+    padding-bottom: 30px;
+    color: #ffa41c;
+    gap: 5px;   
+}
+
+#socialMedia {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 7vh;
+    width: 100vw;
+    background-color: #ffa41c;    
+}
+
+#socialMedia ul {
+    display: flex;
+    gap: 15px;
+}
