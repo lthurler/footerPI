@@ -50,7 +50,7 @@ footer {
 }
 
 #footerMap img {
-    border: none;
+    border: 1px solid #ffa41c;
     border-radius: 20px;
 }
 
