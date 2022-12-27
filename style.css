@@ -24,11 +24,11 @@ section {
 }
 
 footer {
-    background-color: #4b10fe;  
+    background-color: #31119b;  
 } 
 
 .footerContainer {
-    background-color: #4b10fe;
+    
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -72,7 +72,7 @@ footer {
 
 #footerFone {  
       
-    background-color: #4b10fe;
+    background-color: #31119b;
     display: flex;
     font-size: 0.8rem;
     align-items: center;
