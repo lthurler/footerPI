@@ -107,4 +107,120 @@ footer {
     font-size: 1.5rem;
 }
 
+@media screen and (min-width: 767px) {
+    
+    .footerContainer {    
+        justify-content: none;
+        padding: 0 5px;
+        border-top: 2px solid #ffa41c;
+        gap: 5px;
+            
+    }
 
+    #footerLogo {
+        text-align: left;
+        padding: 40px 100px 0 0;
+        color: #ffa41c;
+    }
+
+    #footerMap {
+        /* position: absolute;
+        right: 50; */
+        
+        max-width: 250px;
+        padding-top: 80px;
+               
+    }
+
+    
+    #footerMap img {
+        border: 1px solid #ffa41c;
+        border-radius: 20px;
+    }
+
+    #footerData {
+        flex-direction:column;
+        align-items: flex-start;
+        padding: 80px 0px 0 0;
+        color: #ffa41c;
+    }
+
+    #footerData h3{
+        padding: 30px 0px 25px 80px;
+    }
+
+    #footerInfo {
+        padding-left: 80px;
+    }
+
+    #footerFone {      
+        padding: 0 45px 20px 0;
+        justify-content: flex-end;
+        
+    }
+
+}
+
+@media screen and (min-width: 815px) {
+    #footerFone {      
+        padding: 0 70px 20px 0;
+        justify-content: flex-end;        
+    }
+}
+
+@media screen and (min-width: 900px) {
+    #footerLogo {
+        padding: 40px 120px 0 0;        
+    }
+
+    #footerFone {      
+        padding: 0 103px 20px 0;              
+    }
+
+    #footerData h3{
+        padding: 30px 0px 25px 90px;
+    }
+
+    #footerInfo {
+        padding-left: 90px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .footerContainer {    
+        justify-content: space-between;
+        padding: 0 10px;
+        margin: 0;            
+    }
+
+    #footerLogo {
+        text-align: left;
+        padding: 50px 180px 0 150px;
+        color: #ffa41c;
+    }
+
+    #footerMap {
+        order: 3;
+        padding: 50px 30px 0px 0;
+        max-width: 350px;
+    }
+
+    
+    #footerData {
+        order: 2;
+        text-align: center;
+    }
+
+    #footerData h3{
+        padding: 20px 130px 15px 38px;
+    }    
+
+    #footerInfo {
+        padding-left: 19px;                
+    }
+
+    #footerFone {      
+        justify-content: flex-end;
+        padding: 10px 43px 10px 0;             
+    }
+}
