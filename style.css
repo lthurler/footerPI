@@ -19,6 +19,12 @@ a {
     text-decoration: none;
 }
 
+i:hover {
+    cursor: pointer;
+    color: #fff;
+    transition: 0.5s;       
+}
+
 section {
     height: 22vh;
 }
@@ -103,9 +109,14 @@ footer {
 #socialMedia ul {
     display: flex;
     gap: 60px;
-    color: #31119b;
+    /* color: #31119b; */
     font-size: 1.5rem;
 }
+
+#socialMedia ul a {    
+    color: #31119b;    
+}
+
 
 @media screen and (min-width: 767px) {
     
