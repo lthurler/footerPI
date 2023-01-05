@@ -227,7 +227,7 @@ footer {
 
     #footerLogo {
         text-align: left;
-        padding: 50px 180px 0 150px;
+        padding: 40px 0px 0 150px;
         color: #ffa41c;
     }
 
@@ -244,7 +244,7 @@ footer {
         position: absolute;
         order: 2;
         align-items: flex-end;
-        bottom: 130px;
+        bottom: 120px;
         right: 470px;        
     }
 
@@ -263,7 +263,7 @@ footer {
         font-size: 0.8rem;
         padding: 0;  
         position: absolute;    
-        bottom: 105px;
+        bottom: 95px;
         right: 468px;        
     }
 
