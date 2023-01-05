@@ -30,18 +30,20 @@ section {
 }
 
 footer {
-    background-color: #31119b;  
-} 
+    /* background-color: #4b10fe; */
+        background: linear-gradient(rgba(75,16,254,0.8), rgba(0,0,0,0.8)), url("/img/exercise-weights-iron-dumbbell-with-extra-plates.jpg");
+        background-position: center;
+        background-size: cover;  
+    } 
+     
 
-.footerContainer {
-    
+.footerContainer {    
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     padding: 0 7px;
-    border-top: 2px solid #ffa41c;
-        
+    /* border-top: 2px solid #ffa41c; */        
 }
 
 #footerLogo {
@@ -52,12 +54,14 @@ footer {
 
 #logo {    
     font-family: 'Lora', serif;
-    font-weight: 600;    
+    font-weight: 600;
+    text-shadow: 1px 1px 1px #000;    
 }
 
 #footerMap img {
     border: 1px solid #ffa41c;
     border-radius: 20px;
+    box-shadow: 1px 1px 1px #000;
 }
 
 
@@ -74,15 +78,18 @@ footer {
     font-family: 'Prosto One', cursive;
     font-size: 1rem;
     padding-right: 25px;
+    text-shadow: 1px 1px 1px #000;
             
 }
 
 #footerInfo {
     font-size: 0.8rem;
+    text-shadow: 1px 1px 1px #000;
 }
 
 #footerFone {      
-    background-color: #31119b;
+    /* background-color: #31119b; */
+    background-color: transparent;
     display: flex;
     font-size: 0.8rem;
     align-items: center;
@@ -90,7 +97,8 @@ footer {
     padding-left: 110px;
     padding-bottom: 30px;
     color: #ffa41c;
-    gap: 5px;   
+    gap: 5px;
+    text-shadow: 1px 1px 1px #000;   
 }
 
 #footerFone:nth-child(2){
@@ -98,12 +106,13 @@ footer {
 }
 
 #socialMedia {
+    background: linear-gradient(rgba(255,164,28,0.8), rgba(0,0,0,0.8));
     display: flex;
     align-items: center;
     justify-content: center;
     height: 7vh;
     width: 100vw;
-    background-color: #ffa41c;    
+    /* background-color: #ffa41c;     */
 }
 
 #socialMedia ul {
@@ -114,7 +123,8 @@ footer {
 }
 
 #socialMedia ul a {    
-    color: #31119b;    
+    color: #260d78;
+    /* color: #31119b;  */
 }
 
 
@@ -123,7 +133,7 @@ footer {
     .footerContainer {    
         justify-content: none;
         padding: 0 5px;
-        border-top: 2px solid #ffa41c;
+        /* border-top: 2px solid #ffa41c; */
         gap: 5px;
             
     }
@@ -135,9 +145,6 @@ footer {
     }
 
     #footerMap {
-        /* position: absolute;
-        right: 50; */
-        
         max-width: 250px;
         padding-top: 80px;
                
@@ -147,6 +154,7 @@ footer {
     #footerMap img {
         border: 1px solid #ffa41c;
         border-radius: 20px;
+        
     }
 
     #footerData {
@@ -158,6 +166,7 @@ footer {
 
     #footerData h3{
         padding: 30px 0px 25px 80px;
+        
     }
 
     #footerInfo {
@@ -198,6 +207,10 @@ footer {
 }
 
 @media screen and (min-width: 1200px) {
+    footer{
+        position: relative;
+    }
+
     .footerContainer {    
         justify-content: space-between;
         padding: 0 10px;
@@ -212,26 +225,36 @@ footer {
 
     #footerMap {
         order: 3;
-        padding: 50px 30px 0px 0;
-        max-width: 350px;
+        padding: 30px 0;
+        margin-right: 100px;
+        max-width: 235px;
     }
 
     
     #footerData {
+        position: absolute;
         order: 2;
-        text-align: center;
+        align-items: flex-end;
+        bottom: 130px;
+        right: 490px;        
     }
 
     #footerData h3{
-        padding: 20px 130px 15px 38px;
+        padding-right: 40px;
+        padding: 0 40px 5px;               
     }    
 
     #footerInfo {
-        padding-left: 19px;                
+        padding: 0;
+        margin: 0;
+        font-size: 0.8rem;                              
     }
 
-    #footerFone {      
-        justify-content: flex-end;
-        padding: 10px 43px 10px 0;             
+    #footerFone {
+        font-size: 0.8rem;
+        padding: 0;  
+        position: absolute;    
+        bottom: 105px;
+        right: 488px;        
     }
 }
